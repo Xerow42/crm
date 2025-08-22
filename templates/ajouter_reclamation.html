@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Réclamation</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Ajouter une Réclamation</h2>
+        <form action="/ajouter_reclamation" method="post">
+            <div class="form-group">
+                <label for="utilisateur">Utilisateur :</label>
+                <select class="form-control" id="utilisateur" name="utilisateur" required>
+                    {% for utilisateur in utilisateurs %}
+                        <option value="{{ utilisateur.id }}">{{ utilisateur.nom }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="motif">Motif :</label>
+                <select class="form-control" id="motif" name="motif" required>
+                    {% for motif in motifs %}
+                        <option value="{{ motif.id }}">{{ motif.nom_motif }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description_originale">Description :</label>
+                <textarea class="form-control" id="description_originale" name="description_originale" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary mt-3">Ajouter</button>
+        </form>
+
+        <a href="/" class="btn btn-secondary mt-3">Retourner au Dashboard</a>
+    </div>
+</body>
+</html>

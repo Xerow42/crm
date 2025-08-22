@@ -1,0 +1,8 @@
+Flask==2.0.1
+sqlite3==3.35.4
+smtplib
+googletrans==4.0.0-rc1
+deep-translator==1.6.0
+langdetect==1.0.9
+transformers==4.9.0
+logging
