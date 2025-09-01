@@ -1,4 +1,4 @@
-nom,email,description,date_reclamation
-Khalil1,klamrabeta19@gmail.com,My order arrived late and I am not happy with the delivery service,2025-08-10
-Khalil2,xerowapple@gmail.com,El servicio fue excelente y el producto es justo lo que esperaba,2025-08-10
-Khalil3,klamrabet192@gmail.com,Le produit est arrivé endommagé et je suis très déçu par la qualité,2025-08-10
+nom|email|motif|description|date_reclamation
+Khalil1|klamrabeta19@gmail.com|late delivery|My order arrived late and I am not happy with the delivery service|2025-08-10
+Khalil2|xerowapple@gmail.com|Servicio|El servicio fue excelente y el producto es justo lo que esperaba|2025-08-10
+Khalil3|klamrabet192@gmail.com|produit endommagé|Le produit est arrivé endommagé et je suis très déçu par la qualité|2025-08-10
