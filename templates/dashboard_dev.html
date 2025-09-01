@@ -92,7 +92,8 @@
                             <thead>
                                 <tr>
                                     <th>Nom</th>
-                                    <th>Description (Traduit)</th>
+                                    <th>Motif</th>
+                                    <th>Description (Traduite)</th>
                                     <th>Description Originale</th>
                                     <th>Sentiment</th>
                                     <th>Compound score</th>
@@ -105,6 +106,7 @@
                                 {% for reclamation in reclamations %}
                                     <tr>
                                         <td>{{ reclamation.nom }}</td>
+                                        <td>{{ reclamation.nom_motif }}</td>  
                                         <td>{{ reclamation.description }}</td>
                                         <td>{{ reclamation.description_originale }}</td>
                                         <td>{{ reclamation.sentiment }}</td>
@@ -114,7 +116,7 @@
                                         <td class="action-buttons">
                                             <a href="/traiter_reclamation/{{ reclamation.id }}" class="btn btn-sm btn-primary btn-action">Traiter</a>
                                             <form action="/supprimer_reclamation/{{ reclamation.id }}" method="POST" style="display:inline-block;" 
-                                                  onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer cette réclamation ?');">
+                                                onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer cette réclamation ?');">
                                                 <button type="submit" class="btn btn-sm btn-danger btn-action">Supprimer</button>
                                             </form>
                                         </td>
