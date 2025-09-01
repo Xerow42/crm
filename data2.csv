@@ -1,6 +1,6 @@
-nom,email,description,id_motif,date_reclamation
-Alice,alice@example.com,Produit défectueux,1,2025-08-08
-Bob,bob@example.com,Service client médiocre,2,2025-08-07
-Charlie,charlie@example.com,Retard de livraison,3,2025-08-06
-David,david@example.com,Produit endommagé à l'arrivée,1,2025-08-05
-Eva,eva@example.com,Commande incomplète,3,2025-08-04
+nom|email|motif|description|date_reclamation
+Alice|alice@example.com|Produit défectueux|Produit défectueux|2025-08-08
+Bob|bob@example.com|Service client médiocre|Service client médiocre|2025-08-07
+Charlie|charlie@example.com|Retard de livraison|Retard de livraison|2025-08-06
+David|david@example.com|Produit endommagé|Produit endommagé à l'arrivée|2025-08-05
+Eva|eva@example.com|Commande incomplète|Commande incomplète|2025-08-04
