@@ -192,4 +192,4 @@ Engineering Student — Big Data & Artificial Intelligence
 
 ---
 
-*Developed as an IT project focused on complaint management, AI-assisted text processing, and workflow automation.*
+*Developed as an IT project focused on complaint management, NLP-based text processing*
