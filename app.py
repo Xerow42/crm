@@ -307,4 +307,4 @@ def importer_csv(fichier_csv):
     print("Import CSV terminé avec succès.")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
