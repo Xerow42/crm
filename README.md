@@ -66,11 +66,7 @@ The application follows a lightweight web application architecture:
 
 ![RECLAMATIONS](reclamations.png)
 
-## reclamations
-
-![RECLAMATIONS](reclamations.png)
  
-
 ## RESULTAT FINAL 
 
 ![FINAL RESULT](EMAIL.png)
