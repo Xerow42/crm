@@ -53,16 +53,18 @@ The application follows a lightweight web application architecture:
                           v
                        SQLite
 ```
+## WORKFLOW of the project
+
+![FLOW](architecture.png)
+
 
 ## Dashboard/TESTING
 
 ![Dashboard](dashboard.png)
 
-## WORKFLOW of the project
+ 
 
-![FLOW](architecture.png)
-
-## reclamations
+## Reclamations
 
 ![RECLAMATIONS](reclamations.png)
 
