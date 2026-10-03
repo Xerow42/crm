@@ -54,6 +54,30 @@ The application follows a lightweight web application architecture:
                        SQLite
 ```
 
+## Dashboard/TESTING
+
+![Dashboard](dashboard.png)
+
+## WORKFLOW of the project
+
+![FLOW](architecture.png)
+
+## reclamations
+
+![RECLAMATIONS](reclamations.png)
+
+## reclamations
+
+![RECLAMATIONS](reclamations.png)
+ 
+
+## RESULTAT FINAL 
+
+![FINAL RESULT](EMAIL.png)
+
+
+
+
 The Flask backend handles application logic, while SQLite provides persistent storage for complaint records.
 
 ## Main Workflows
